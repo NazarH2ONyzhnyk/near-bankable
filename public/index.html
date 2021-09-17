@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEAR Bankable</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+</head>
+<body>
+    <header class="text-white from-indigo-400 to-pink-300 bg-gradient-to-tr">
+        <div class="container mx-auto px-6 pb-10">
+            <div class="flex items-center justify-between py-2">
+                <a href="#" class="font-semibold text-lg">NEAR Bankable</a>
+                <a href="#" class="flex justify-center items-center rounded-full h-12 w-12 bg-white font-semibold text-lg text-pink-300">NN</a>
+            </div>
+            <div class="w-full md:w-1/2 md:mx-auto mt-4 border border-white px-8 py-4 rounded-2xl">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg">Balance</p>
+                    <p class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clip-rule="evenodd" />
+                        </svg>
+                    </p>
+                </div>
+                <p class="text-6xl font-semibold">25 <span class="text-3xl">NEAR</span></p>
+                <div class="mt-10">
+                    <p class="text-xl">Nazar Nyzhnyk</p>
+                    <p class="text-lg text-gray-300">nazarh2onyzhnyk.near</p>
+                </div>
+            </div>
+            <div class="flex justify-center space-x-6 mt-8">
+                <a href="#" class="flex justify-center items-center w-16 h-16 border border-white rounded-full hover:bg-indigo-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                    </svg>
+                </a>
+                <a href="#" class="flex justify-center items-center w-16 h-16 border border-white rounded-full hover:bg-indigo-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="#" class="flex justify-center items-center w-16 h-16 border border-white rounded-full hover:bg-indigo-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="-mt-4 bg-gray-900 text-white rounded-t-2xl">
+        <div class="container mx-auto px-6">
+            <div class="flex items-center justify-center">
+                <div class="w-1/2 h-1 bg-gray-800 rounded-full mt-4"></div>
+            </div>
+            <div class="flex items-center justify-between my-4">
+                <h2 class="text-2xl">Deposits</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+                </svg>
+            </div>
+            <div class="flex items-center">
+                <hr class="border w-full border-gray-600">
+                <p class="text-gray-600 mx-4 text-lg">Today</p>
+                <hr class="border w-full border-gray-600">
+            </div>
+            <div class="mt-2">
+                <ul class="">
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center">
+                <hr class="border w-full border-gray-600">
+                <p class="text-gray-600 mx-4 text-lg">15/09/2021</p>
+                <hr class="border w-full border-gray-600">
+            </div>
+            <div class="mt-2">
+                <ul class="">
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                    <li class="flex hover:bg-gray-800 py-2 px-4">
+                        <div class="w-16 h-16 rounded-full from-gray-900 to-gray-800 bg-gradient-to-tr flex items-center justify-center">
+                            <p class="text-lg font-semibold">AN</p>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-xl font-semibold">Account Name</p>
+                            <p class="text-gray-600">accountname.near</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-green-600 text-xl font-semibold">+ 3 NEAR</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
